@@ -1,0 +1,266 @@
+/*-------------------------------------------- Category feature CSS Start --------------------------------------*/
+.cat_feature {
+	background: #fff none repeat scroll 0 0;
+	float: left;
+	padding: 65px 0;
+	position: relative;
+	vertical-align: top;
+	width: 100%;
+}
+.cat_feature::after {
+	background: rgba(0,0,0,0) url("../TemplateTrip/images/header-bg-03.png")repeat scroll 0 bottom;
+	bottom: -9px;
+	content: "";
+	height: 9px;
+	left: 0;
+	position: absolute;
+	top: auto;
+	width: 100%;
+}
+.cat_feature .box-heading {
+	float: left;
+	width: 100%;
+}
+.tt-category-featured .container{
+	position:relative;
+}
+.tt-category-featured.container {
+  position: relative;
+  z-index: 1;
+  margin:0 auto;
+  clear:both;
+}
+.tt-category-featured .ttfcat-items {
+	float: left;
+	vertical-align: top;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items .category-feature {
+	margin: 0;
+}
+.tt-category-featured .ttfcat-items .item {
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.tt-category-featured .ttfcat-items .content {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	padding: 0 15px;
+}
+.tt-category-featured .ttfcat-items .content .tt_cat_content {
+	background: #222 none repeat scroll 0 0;
+	float: left;
+	margin: 0 0 10px;
+	position: relative;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items .content .image {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+.tt-category-featured .ttfcat-items .item .content .image a {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.tt-category-featured .ttfcat-items .item .content .image a .img-responsive{
+	display: block;
+	max-width: 100%;
+	transition: all 600ms ease-in-out 0s;
+	-webkit-transition: all 600ms ease-in-out 0s;
+	-moz-transition: all 600ms ease-in-out 0s;
+	-o-transition: all 600ms ease-in-out 0s;
+	-ms-transition: all 600ms ease-in-out 0s;
+	margin: 0 0 0 -30px;
+	float: left;
+}
+.tt-category-featured .ttfcat-items .item .content:hover .image a .img-responsive{
+	margin: 0;
+}
+.tt-category-featured .category-feature .caption {
+	float: left;
+	left: 0;
+	margin: 0 auto;
+	padding: 30px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.tt-category-featured .category-feature .caption .cat-title {
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.tt-category-featured .category-feature .caption .cat-sub {
+	display: block;
+	transition: all 400ms ease 0s;
+	-webkit-transition: all 400ms ease 0s;
+	-moz-transition: all 400ms ease 0s;
+	-o-transition: all 400ms ease 0s;
+	-ms-transition: all 400ms ease 0s;
+	float: left;
+	width: 100%;
+}
+.tt-category-featured .category-feature .caption .cat-sub ul {
+	float: left;
+	margin: 20px 0 0;
+	width: 100%;
+	z-index: 1;
+	padding: 0;
+	text-align: right;
+}
+.tt-category-featured .category-feature .caption .cat-sub li {
+	list-style: outside none none;
+	position: relative;
+	cursor: pointer;
+}
+.tt-category-featured .category-feature .caption .cat-sub li a{
+	background: none;
+	border: medium none;
+	color: #ccc;
+	font: 400 18px/22px "philosopher",Helvetica,sans-serif;
+	padding: 0;
+	position: relative;
+	text-transform: capitalize;
+	letter-spacing: .4px;
+}
+.tt-category-featured .category-feature .caption .cat-sub li a:hover{
+	color: #ffc000;
+}
+.cat_feature .category-feature .caption .cat-sub ul .tt_more-menu {
+	background: #d40930 none repeat scroll 0 0;
+	border-radius: 50px;
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	-khtml-border-radius: 50px;
+	float: right;
+	padding: 8px 20px;
+	width: auto;
+	margin-top: 20px;
+}
+.cat_feature .category-feature .caption .cat-sub ul .tt_more-menu:hover {
+	background: #ffc206;
+}
+.cat_feature .category-feature .caption .cat-sub ul .tt_more-menu .categories {
+	float: left;
+	width: 100%;
+}
+.cat_feature .category-feature .caption .cat-sub li.more span a {
+	color: #fff;
+	font: 400 18px/22px "philosopher";
+}
+.cat_feature .category-feature .caption .cat-sub li.more:hover span a {
+	color: #000;
+}
+.tt-category-featured .products-carousel .owl-buttons {
+	display: none;
+}
+.tt-category-featured .caption .cat-title > h4 {
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.tt-category-featured .caption .cat-title > h4 a {
+	color: #fff;
+	float: left;
+	font: 700 24px/30px "Philosopher",sans-serif;
+	letter-spacing: .4px;
+	margin: 0 0 10px;
+	padding: 0 0 10px;
+	position: relative;
+	text-align: right;
+	text-transform: capitalize;
+	width: 100%;
+}
+.tt-category-featured .content:hover .caption .cat-title > h4 a {
+	color: #ffc000;
+}
+.tt-category-featured .caption .cat-title > h4 a::after {
+	background: #da0b32;
+	bottom: 0;
+	content: "";
+	height: 2px;
+	left: auto;
+	position: absolute;
+	transition: width 400ms ease-in-out 0s;
+	-moz-transition: width 400ms ease-in-out 0s;
+	-webkit-transition: width 400ms ease-in-out 0s;
+	-khtml-transition: width 400ms ease-in-out 0s;
+	-o-transition: width 400ms ease-in-out 0s;
+	width: 50px;
+	right: 0;
+	margin: 0 auto;
+}
+/*-------------------------------------------- Category feature custome CSS start --------------------------------------*/
+.tt-category-featured .customNavigation {
+	display: none;
+}
+.tt-category-featured .customNavigation a.prev::before,
+.tt-category-featured .customNavigation a.next::before,
+.tt-category-featured .customNavigation a.prev::after,
+.tt-category-featured .customNavigation a.next::after {
+	display: none;
+}
+.tt-category-featured .customNavigation a {
+	bottom: 0;
+	position: absolute;
+	top: 41%;
+	z-index: 2;
+}
+.tt-category-featured .customNavigation a.prev {
+	left: 10px;
+	right: auto;
+}
+.tt-category-featured .customNavigation a.next {
+	left: auto;
+	right: 10px;
+}
+/*-------------------------------------------- Category feature custome CSS End --------------------------------------*/
+/*-------------------------------------------- Category feature CSS End --------------------------------------*/
+@media (max-width: 1199px) {
+	.cat_feature {
+		padding: 50px 0 20px;
+	}
+	.tt-category-featured .ttfcat-items .item .content .image a .img-responsive {
+		width: 50%;
+	}
+	.tt-category-featured .category-feature .caption {
+		padding: 10px 15px;
+	}
+	.tt-category-featured .caption .cat-title > h4 a {
+		font: 700 18px/14px "Philosopher",sans-serif;
+	}
+	.cat_feature .category-feature .caption .cat-sub ul .tt_more-menu {
+		margin-top: 10px;
+	}
+	.tt-category-featured .ttfcat-items .content .tt_cat_content {
+		padding: 0 0 40px;
+	}
+	.tt-category-featured .category-feature .caption .cat-sub ul {
+		margin: 5px 0 0;
+	}
+	.tt-category-featured .category-feature .caption .cat-sub li a {
+		font-size: 16px;
+	}
+}
+@media (max-width: 767px) {
+	.cat_feature {
+		padding: 40px 0 20px;
+	}
+}
+@media (max-width: 480px) {
+	.cat_feature {
+		padding: 30px 0 20px;
+	}
+	.tt-category-featured .ttfcat-items .content .image img{
+		width:100%;
+	}
+}

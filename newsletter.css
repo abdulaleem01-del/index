@@ -1,0 +1,400 @@
+/* newsletter popup */
+.b-close{
+	display: block;
+	z-index: 1;
+	position: relative;
+}
+.b-close::before {
+	height: 25px;
+	transition: all 0.5s ease-in-out 0ms;
+	-webkit-transition: all 0.5s ease-in-out 0ms;
+	-moz-transition: all 0.5s ease-in-out 0ms;
+	-o-transition: all 0.5s ease-in-out 0ms;
+	-ms-transition: all 0.5s ease-in-out 0ms;
+	width: 25px;
+	z-index: 1;
+	content: "\f00d";
+	color: #000;
+	font-family: "FontAwesome";
+	font-size: 16px;
+	line-height: 25px;
+	position: absolute;
+	right: 0;
+	left: auto;
+}
+#popup2:hover .b-close::before {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+.b-close span { display:none; }
+.newletter-popup {
+	background: #ffffff;
+	background-attachment: scroll;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	-webkit-background-position: center bottom;
+	-moz-background-position: center bottom;
+	-o-background-position: center bottom;
+	-webkit-background-repeat: no-repeat;
+	-moz-background-repeat: no-repeat;
+	-o-background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	top: 47% !important;
+	margin-top: -220px;
+	position: fixed !important;
+	text-align: center;
+	display: none;
+	height: auto;
+	width: 600px;
+}
+.newletter-popup .box {
+	background: #fff none repeat scroll 0 0;
+	float: right;
+	margin: 8% 0 0;
+	text-align: center;
+}
+.newslatter-img {
+   background: #ffffff url("images/newsletter.jpg") no-repeat scroll 0 center;
+	height: 460px;
+	padding: 0;
+}
+.newletter-popup #boxes .newletter-title h2 {
+	color: #000;
+	font: 700 28px/32px "Philosopher",sans-serif;
+	margin: 0 0 15px;
+	text-transform: capitalize;
+	background: rgba(0,0,0,0) url("images/separator.png") no-repeat scroll center bottom;
+	padding: 0 0 40px;
+}
+.newletter-popup #frm_subscribe {
+	float: left;
+	width: 100%;
+	margin: 5px 0 0;
+}
+.newletter-popup #frm_subscribe .newslatterpopup-content > span {
+	font-size: 13px;
+	line-height: 20px;
+	color: #666;
+}
+.newletter-popup .newletter-title {
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 0;
+}
+.newletter-popup .newleter-content {
+  float: left;
+  width: 100%;
+}
+#boxes .box-content label {
+	font-weight: 400;
+	color: #666;
+	font-size: 13px;
+	line-height: 20px;
+	margin: 0;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+#boxes .box-content label:hover {
+	color: #000000;
+}
+#boxes  #frm_subscribe .required{
+	color: #f00;
+	padding-right: 5px;
+}
+#boxes #frm_subscribe #subscribe_pemail {
+	margin: 20px 0 25px;
+	background-color: #f5f5f5;
+	border: 1px solid #e5e5e5;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	height: 45px;
+	padding: 5px 15px;
+	width: 90%;
+	text-align: center;
+	color: #666;
+	letter-spacing: 1px;
+}
+#boxes .box-content .subscribe-bottom #newsletter_popup_dont_show_again{
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+}
+#boxes  #frm_subscribe #notification{
+	color: #f00;
+}
+.newletter-popup #frm_subscribe .checkbox-wrapper {
+	margin: 0;
+}
+#subscribe_popup #notification > div {
+  margin: 10px 0 0;
+}
+#boxes  #frm_subscribe #notification .success{
+	color: #4caf50;
+}
+#popup2{
+	cursor: pointer;
+	height: 25px;
+	line-height: 24px;
+	padding: 0;
+	position: absolute;
+	right: 5px;
+	text-align: center;
+	top: 5px;
+	width: 25px;
+}
+.popup-button {
+	float: none;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+/* newsllter */
+#dialog-normal .newletter-title h2 {
+	position: relative;
+	border: medium none;
+	color: #fff;
+	float: left;
+	font: 700 28px/42px "Philosopher",sans-serif;
+	text-align: left;
+	width: 100%;
+	background: none;
+	margin: 0;
+	padding: 0 0 0 50px;
+}
+.newletter-title {
+	float: left;
+}
+.newletter-desc {
+	color: #fff;
+	float: left;
+	font: 400 13px/18px "Poppins",Helvetica,sans-serif;
+	text-align: left;
+	width: 100%;
+	margin: 0 0 10px;
+}
+#dialog-normal .newletter-title h2::before {
+	background: rgba(0,0,0,0) url("images/sprite.png") no-repeat scroll -30px -533px;
+	content: "";
+	height: 40px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 50px;
+}
+#dialog-normal .newleter-content {
+	display: inline-block;
+	float: none;
+	overflow: hidden;
+	margin: 8px 0;
+}
+#form_subscribe{
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.newletter-subscribe {
+	float: left;
+	width: 100%;
+	padding: 40px 0;
+	text-align: center;
+}
+.newletter-subscribe .box {
+  float: left;
+  width: 100%;
+}
+#subscribe_email {
+	float: right;
+	border: none;
+	color: #666;
+	padding: 10px 135px 10px 15px;
+	width: 100%;
+	font: 400 13px/22px "Poppins",Helvetica,sans-serif;
+	background: #fff none repeat scroll 0 0;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	height: 42px;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+}
+#subscribe_email::-webkit-input-placeholder{
+	color: #666;
+}
+#subscribe_email::-moz-placeholder{
+	color: #666;
+}
+#subscribe_email:-ms-input-placeholder{
+	color: #666;
+}
+#subscribe_email:-moz-placeholder {
+	color: #666;
+}
+#subscribe .btn {
+	background: #000 none repeat scroll 0 0;
+	color: #fff;
+	font: 500 13px/28px "Poppins",Helvetica,sans-serif;
+	height: 42px;
+	overflow: hidden;
+	padding: 6px 20px;
+	position: absolute;
+	right: -5px;
+	top: 0;
+	border: 1px solid #000;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-khtml-border-radius: 50px;
+	transition: none 0s ease 0s;
+	-webkit-transition: none 0s ease 0s;
+	-moz-transition: none 0s ease 0s;
+	-o-transition: none 0s ease 0s;
+	-ms-transition: none 0s ease 0s;
+}
+#subscribe .btn:hover {
+	background: #ffc000;
+	border-color: #ffc000;
+	color: #000;
+}
+.newletter-subscribe .button i {
+   display: none;
+}
+#notification-normal {
+	float: right;
+	width: 100%;
+}
+#notification-normal div{
+	background: #dff0d8;
+	color: #3c763d;
+	font-size: 13px;
+	padding: 10px 15px;
+	margin: 5px 0 0;
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+}
+#notification-normal div.warning{
+	background: #f2dede;
+	color: #a94442;
+}
+@media(max-width:1199px){
+	#subscribe .btn {
+		right: 0;
+	}
+	#dialog-normal .newletter-title h2 {
+		font-size: 30px;
+	}
+	.newletter-subscribe {
+		padding: 30px 0;
+	}
+}
+@media(max-width:991px){
+	#dialog-normal .newletter-title {
+		width: 100%;
+		padding: 0;
+		text-align: center;
+	}
+	#dialog-normal .newletter-title h2 {
+		display: inline-block;
+		float: none;
+		text-align: center;
+		width: auto;
+	}
+	.newletter-desc {
+		text-align: center;
+		padding: 0 10px;
+	}
+	#dialog-normal .newleter-content {
+		width: 550px;
+		display: inline-block;
+		float: none;
+		text-align: center;
+		vertical-align: top;
+		padding: 0;
+	}
+}
+@media(max-width:767px){ 
+	#dialog-normal .newleter-content {
+		width: 450px;
+	}
+}
+@media(max-width:600px){
+	.newletter-popup {
+		width: 300px;
+		margin: 0;
+		top: 1% !important;
+		height: 100%;
+		overflow-y: auto;
+	}
+	.newletter-popup .box {
+		margin: 0;
+		width: 100%;
+		padding: 8% 0;
+	}
+	.newslatter-img {
+		width: 100%;
+	}
+	#boxes #frm_subscribe #subscribe_pemail {
+		width: 80%;
+	}
+}
+@media(max-width:480px){
+	.newletter-subscribe .button > span {
+		display: none;
+	}
+	.newletter-popup #boxes .newletter-title h2 {
+		font-size: 22px;
+		line-height: 24px;
+	}
+	#subscribe .btn {
+		padding: 10px 18px;
+	}
+	.newletter-subscribe .button > i {
+		display: block;
+		font-size: 18px;
+		line-height: 22px;
+		color: #fff;
+	}
+	.newletter-subscribe .button:hover > i {
+		color: #000;
+	}
+	#dialog-normal .newleter-content {
+	  	width: 290px;
+	}
+	.newletter-subscribe {
+		padding: 20px 0;
+	}
+	#subscribe_email {
+		padding: 0 50px 0 10px;
+	}
+	#dialog-normal .newletter-title .tt-title::before {
+		bottom: 0px;
+		top: 0;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+	#notification-normal {
+		width: 100%;
+	}
+	#dialog-normal .newletter-title {
+		padding: 0;
+	}
+	#dialog-normal .newletter-title h2 {
+		padding: 45px 0 0;
+		font-size: 22px;
+		line-height: 36px;
+	}
+}
